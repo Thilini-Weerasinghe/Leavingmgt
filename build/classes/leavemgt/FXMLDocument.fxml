@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="399.0" style="-fx-background-color: ORANGE;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="leavemgt.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="141.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="73.0" text="LOGIN" />
+        <Label fx:id="label" layoutX="127.0" layoutY="23.0" minHeight="16" minWidth="69" text="USER LOGIN">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font></Label>
+      <TextField fx:id="username_txt" layoutX="177.0" layoutY="158.0" />
+      <TextField fx:id="password_txt" layoutX="177.0" layoutY="201.0" />
+      <Label fx:id="department_btn" layoutX="71.0" layoutY="80.0" text="Department">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="role_btn" layoutX="71.0" layoutY="119.0" text="Role">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="username_btn" layoutX="72.0" layoutY="161.0" text="User Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="password_btn" layoutX="70.0" layoutY="204.0" text="Password">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="253.0" layoutY="243.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="CANCEL" />
+      <ComboBox fx:id="department_combox" layoutX="178.0" layoutY="78.0" onAction="#comboaction" prefWidth="150.0" />
+      <ComboBox fx:id="role_cmbox" layoutX="178.0" layoutY="117.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>
