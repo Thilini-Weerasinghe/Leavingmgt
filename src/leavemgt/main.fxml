@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="445.0" prefWidth="686.0" style="-fx-background-color: #483D8B;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="leavemgt.MainController">
+<AnchorPane id="AnchorPane" prefHeight="445.0" prefWidth="686.0" style="-fx-background-color: #483D8B;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leavemgt.MainController">
     <stylesheets>
         <URL value="@main.css" />
     </stylesheets>
@@ -18,7 +18,7 @@
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="14.0" layoutY="73.0" prefHeight="17.0" prefWidth="49.0" text="Date" textFill="#fffdfd">
+      <Label layoutX="14.0" layoutY="73.0" prefHeight="17.0" prefWidth="49.0" text="DATE" textFill="#fffdfd">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
